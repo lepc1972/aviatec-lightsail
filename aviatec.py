@@ -7,9 +7,9 @@ app = Flask(__name__)
 
 @app.route('/')
 def get_recommendations1():
-    
-    aws_access_key_id = ''
-    aws_secret_access_key = ''
+
+    aws_access_key_id = 'AKIASISMQCIVLCNKN2EJ'
+    aws_secret_access_key = '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'
     region = 'us-east-1'
 
     personalizeRt = boto3.client('personalize-runtime', region_name='us-east-1')
@@ -27,8 +27,8 @@ def get_recommendations1():
 
 @app.route('/1')
 def get_recommendations2():
-    aws_access_key_id = ''
-    aws_secret_access_key = ''
+    aws_access_key_id = 'AKIASISMQCIVLCNKN2EJ'
+    aws_secret_access_key = '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'
     region = 'us-east-1'
 
     personalizeRt = boto3.client('personalize-runtime', region_name='us-east-1')
@@ -47,8 +47,8 @@ def get_recommendations2():
 
 @app.route('/2')
 def get_recommendations3():
-    aws_access_key_id = ''
-    aws_secret_access_key = ''
+    aws_access_key_id = 'AKIASISMQCIVLCNKN2EJ'
+    aws_secret_access_key = '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'
     region = 'us-east-1'
 
     personalizeRt = boto3.client('personalize-runtime', region_name='us-east-1')
@@ -66,8 +66,8 @@ def get_recommendations3():
 
 @app.route('/3')
 def get_recommendations4():
-    aws_access_key_id = ''
-    aws_secret_access_key = ''
+    aws_access_key_id = 'AKIASISMQCIVLCNKN2EJ'
+    aws_secret_access_key = '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'
     region = 'us-east-1'
 
     personalizeRt = boto3.client('personalize-runtime', region_name='us-east-1')
